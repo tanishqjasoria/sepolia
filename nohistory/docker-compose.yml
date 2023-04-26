@@ -73,8 +73,8 @@ services:
     - --accept-terms-of-use
     - --monitoring-host=0.0.0.0
     - --monitoring-port=5054
-    - --checkpoint-sync-url=https://sepolia.checkpoint-sync.ethdevops.io
-    - --genesis-beacon-api-url=https://sepolia.checkpoint-sync.ethdevops.io
+    - --checkpoint-sync-url=https://sepolia.checkpoint-sync.ethpandaops.io
+    - --genesis-beacon-api-url=https://sepolia.checkpoint-sync.ethpandaops.io
 networks:
   sedge:
     name: sedge-network-nohistory
